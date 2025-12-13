@@ -19,17 +19,15 @@ Bash
 
 Project-Root/
 
-├── app.py              # Flask 백엔드 서버 (API 중계 및 AI 요약)
-├── portfolio.html      # 메인 프론트엔드 페이지
-├── CORPCODE.xml        # DART 고유번호 데이터 (필수)
-├── requirements.txt    # 파이썬 의존성 패키지
-└── .env                # 환경변수 설정 파일 (직접 생성 필요)
+├── app.py              # Flask 백엔드 서버 (API 중계 및 AI 요약)  
+├── portfolio.html      # 메인 프론트엔드 페이지  
+├── CORPCODE.xml        # DART 고유번호 데이터 (필수)  
+├── requirements.txt    # 파이썬 의존성 패키지  
+└── .env                # 환경변수 설정 파일 (직접 생성 필요)  
 
 🚀 설치 및 실행 방법 (Installation & Run)
 1. 환경 설정 (.env)
 프로젝트 루트 경로에 .env 파일을 생성하고 아래 내용을 작성하세요. (CORPCODE.xml 파일이 프로젝트 루트에 존재하는지 반드시 확인해주세요.)
-
-Ini, TOML
 
 # .env file
 DART_API_KEY=발급받은_DART_API_키
@@ -38,13 +36,9 @@ GEMINI_MODEL=gemini-2.5-flash-preview-09-2025
 2. 패키지 설치
 Python 가상환경 활성화 후, 필수 라이브러리를 설치합니다.
 
-Bash
-
 pip install -r requirements.txt
 3. 백엔드 서버 실행
 Flask 서버를 실행합니다.
-
-Bash
 
 python app.py
 서버가 시작되면 http://127.0.0.1:5000에서 API 요청을 대기합니다.
