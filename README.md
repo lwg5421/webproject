@@ -33,24 +33,26 @@ Project-Root/
 DART_API_KEY=발급받은_DART_API_키
 GEMINI_API_KEY=발급받은_GEMINI_API_키
 GEMINI_MODEL=gemini-2.5-flash-preview-09-2025
+
+  
 2. 패키지 설치
 Python 가상환경 활성화 후, 필수 라이브러리를 설치합니다.
 
-pip install -r requirements.txt
-3. 백엔드 서버 실행
-Flask 서버를 실행합니다.
+pip install -r requirements.txt 
 
+
+3. 백엔드 서버 실행
+Flask 서버를 실행합니다. 
+  
 python app.py
-서버가 시작되면 http://127.0.0.1:5000에서 API 요청을 대기합니다.
+서버가 시작되면 http://127.0.0.1:5000에서 API 요청을 대기합니다.  
 
 4. 웹 페이지 접속
 portfolio.html 파일을 브라우저에서 실행합니다.
-
 권장: VS Code의 Live Server 확장을 사용하거나, 브라우저에 파일을 직접 드래그하여 엽니다.
-
-기업명을 입력하여 분석 기능을 테스트할 수 있습니다.
+기업명을 입력하여 분석 기능을 테스트할 수 있습니다.  
 
 ⚠️ 주의사항
-CORPCODE.xml: DART에서 제공하는 고유번호 XML 파일이 없으면 기업 검색이 불가능합니다. 압축을 푼 파일이 app.py와 같은 폴더에 있어야 합니다.
-
+CORPCODE.xml: DART에서 제공하는 고유번호 XML 파일이 없으면 기업 검색이 불가능합니다. 압축을 푼 파일이 app.py와 같은 폴더에 있어야 합니다.  
+  
 Firebase 설정: portfolio.html 내부의 firebaseConfig 객체는 본인의 프로젝트 설정값으로 변경해야 정상적으로 DB가 작동합니다.
