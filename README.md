@@ -25,11 +25,13 @@ Project-Root/
 ├── requirements.txt    # 파이썬 의존성 패키지  
 └── .env                # 환경변수 설정 파일 (직접 생성 필요)  
 
-🚀 설치 및 실행 방법 (Installation & Run)
+설치 및 실행 방법 (Installation & Run)
+
+  
 1. 환경 설정 (.env)
 프로젝트 루트 경로에 .env 파일을 생성하고 아래 내용을 작성하세요. (CORPCODE.xml 파일이 프로젝트 루트에 존재하는지 반드시 확인해주세요.)
-
-# .env file
+  
+.env file
 DART_API_KEY=발급받은_DART_API_키
 GEMINI_API_KEY=발급받은_GEMINI_API_키
 GEMINI_MODEL=gemini-2.5-flash-preview-09-2025
