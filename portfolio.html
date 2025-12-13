@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Not NULL | 기업분석과 인터뷰 기록</title>
+    <title> LWG | 기업분석과 인터뷰 기록</title>
     
-    <meta name="description" content="AI가 DART 공시 정보를 요약 분석해 드립니다. Not NULL의 데이터 기반 기업 분석 툴로 인터뷰를 준비하세요.">
-    <meta name="keywords" content="웹개발자, 프론트엔드, 백엔드, 포트폴리오, React, Node.js, Not NULL, 기업분석, 뉴스요약">
-    <meta name="author" content="Not NULL">
+    <meta name="description" content="팀 LWG의 기업 분석 및 면접 준비 플랫폼입니다. AI 기반 DART 분석, 뉴스 요약, 개발자 포트폴리오를 제공합니다.">
+    <meta name="keywords" content="웹개발자, 프론트엔드, 백엔드, 포트폴리오, React, Node.js, LWG, 기업분석, 뉴스요약, 팀 LWG">
+    <meta name="author" content=" LWG">
     
-    <!-- 오픈 그래프 -->
-    <meta property="og:title" content="Not NULL | 개발자 포트폴리오">
-    <meta property="og:description" content="기술로 더 나은 세상을 만드는 개발자, Not NULL의 포트폴리오를 만나보세요.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Not+NULL's+Portfolio">
+    <meta property="og:title" content=" LWG | 개발자 포트폴리오">
+    <meta property="og:description" content="기술로 더 나은 세상을 만드는 개발자 팀, LWG의 포트폴리오와 기업 분석 툴입니다.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=+Not+NULL">
     <meta property="og:type" content="website">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 
-    <!-- 라이브러리 CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -120,7 +118,7 @@
         .action-btn:disabled { background-color: #ccc; cursor: not-allowed; transform: none; }
         .action-btn.news { background-color: #03C75A; } 
         .action-btn.copy { background-color: #4A90E2; } 
-        .action-btn.print { background-color: #555; }     
+        .action-btn.print { background-color: #555; }      
 
         /* === 8. 뉴스 리스트 스타일 === */
         .news-list-style { list-style: none; padding: 0; }
@@ -162,12 +160,13 @@
             a { text-decoration: none; color: black; }
         }
     </style>
+    <meta name="naver-site-verification" content="22a6c686affd7d7d0e0b30c43b078cf19a64700d" />
+    <meta name="google-site-verification" content="cKa5jNMFor6De1mByeKp6OcV3DPMIlEKD31m-kheaR4" />
 </head>
 <body>
-    <!-- 헤더 -->
     <header class="header">
         <div class="container">
-            <h1 class="logo"><a data-target="home">Not NULL</a></h1>
+            <h1 class="logo"><a data-target="home">LWG</a></h1>
             <div class="header-right">
                 <nav class="navigation">
                     <ul>
@@ -177,7 +176,6 @@
                         <li><a data-target="interview">인터뷰 기록</a></li>
                     </ul>
                 </nav>
-                <!-- 관리자 모드 버튼 -->
                 <button class="admin-toggle-btn" aria-label="관리자 모드" title="관리자 모드"><i class="fa-solid fa-user-shield"></i></button>
                 <button class="dark-mode-toggle" aria-label="다크 모드 전환"><i class="fa-solid fa-circle-half-stroke"></i></button>
                 <button class="menu-toggle-btn" aria-label="메뉴 열기"><i class="fa-solid fa-bars"></i></button>
@@ -186,17 +184,27 @@
     </header>
 
     <main>
-        <!-- 1. 소개 (Home) -->
         <section id="hero" class="home-section">
             <div class="container" data-aos="fade-in">
                 <div class="hero-content">
-                    <h1>Not NULL입니다.</h1>
+                    <h1>LWG입니다.</h1>
                     <p id="typing-subtitle" class="subtitle"></p>
+                    
+                    <div style="margin-top: 30px; font-size: 0.9rem; color: var(--subtext-color); opacity: 0.8;">
+                        <p>
+                            <strong> LWG 기업분석</strong>은 취업 준비생을 위한 
+                            <strong>AI 기반 기업 분석 및 면접 준비 플랫폼</strong>입니다.
+                            DART 공시 정보를 활용해 재무제표, SWOT 분석, 최신 뉴스 요약을 제공합니다.
+                        </p>
+                        <p style="margin-top:5px;">
+                            개발자 포트폴리오, 면접 질문 리스트, 기업 분석 보고서를 
+                            LWG 웹페이지에서 한눈에 확인하세요.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
         
-        <!-- 2. 기업 분석 -->
         <section id="analysis" class="page-section">
             <div class="container">
                 <h2 class="section-title" data-aos="fade-up">기업 분석</h2>
@@ -228,7 +236,6 @@
             </div>
         </section>
 
-        <!-- 3. 뉴스 브리핑 -->
         <section id="news" class="page-section">
             <div class="container">
                 <h2 class="section-title" data-aos="fade-up">AI 뉴스 브리핑</h2>
@@ -263,7 +270,6 @@
             </div>
         </section>
 
-        <!-- 4. 인터뷰 기록 -->
         <section id="interview" class="page-section">
             <div class="container">
                 <h2 class="section-title" data-aos="fade-up">인터뷰 기록</h2>
@@ -288,7 +294,7 @@
     <footer class="footer">
         <div class="container">
             <div class="social-links"><a href="#" target="_blank"><i class="fa-brands fa-github"></i></a><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a><a href="#" target="_blank"><i class="fa-solid fa-blog"></i></a></div>
-            <p>&copy; 2025 Not NULL. All rights reserved.</p>
+            <p>&copy; 2025 LWG. All rights reserved.</p>
         </div>
     </footer>
     
@@ -317,8 +323,7 @@
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-        // [핵심] 백엔드 API 주소 설정
-        // Render 웹 서비스 주소를 정확히 입력해야 CORS 오류 없이 작동합니다.
+        // [핵심] 백엔드 API 주소 (Render 서비스 주소)
         const API_BASE = 'https://portfolio-backend-4d57.onrender.com'; 
 
         // =================================================================
@@ -532,17 +537,47 @@
             });
         }
 
+        // [최종 수정됨] 인터뷰 기록 추가하기 (관리자만 가능)
+        // 중복된 addEventListener를 제거하고 보안 로직이 포함된 것 하나만 남겼습니다.
         interviewForm.addEventListener('submit', async (e) => {
             e.preventDefault(); 
-            const company = $('#interview-company').value.trim(); const date = $('#interview-date').value; const position = $('#interview-position').value.trim(); const stage = $('#interview-stage').value; const questions = $('#interview-questions').value.trim(); const review = $('#interview-review').value.trim();
-            if (!company || !date || !position || !stage) { interviewStatus.textContent = '필수 정보를 입력하세요.'; interviewStatus.className = 'form-status error'; return; }
-            try { await addDoc(collection(db, "interviews"), { company, date, position, stage, questions, review, createdAt: new Date() }); interviewForm.reset(); interviewStatus.textContent = '성공적으로 저장되었습니다.'; interviewStatus.className = 'form-status success'; setTimeout(() => { interviewStatus.textContent = ''; }, 3000); } catch (err) { interviewStatus.textContent = '저장 실패: ' + err.message; interviewStatus.className = 'form-status error'; }
+
+            // 관리자 체크
+            if (!isAdmin) {
+                alert("🚫 관리자(본인)만 작성할 수 있습니다.\n\n오른쪽 상단 '방패 아이콘'을 눌러 관리자 모드로 로그인해주세요.");
+                return;
+            }
+
+            const company = $('#interview-company').value.trim(); 
+            const date = $('#interview-date').value; 
+            const position = $('#interview-position').value.trim(); 
+            const stage = $('#interview-stage').value; 
+            const questions = $('#interview-questions').value.trim(); 
+            const review = $('#interview-review').value.trim();
+            
+            if (!company || !date || !position || !stage) { 
+                interviewStatus.textContent = '필수 정보를 입력하세요.'; 
+                interviewStatus.className = 'form-status error'; 
+                return; 
+            }
+            
+            try { 
+                await addDoc(collection(db, "interviews"), { 
+                    company, date, position, stage, questions, review, createdAt: new Date() 
+                }); 
+                interviewForm.reset(); 
+                interviewStatus.textContent = '성공적으로 저장되었습니다.'; 
+                interviewStatus.className = 'form-status success'; 
+                setTimeout(() => { interviewStatus.textContent = ''; }, 3000); 
+            } catch (err) { 
+                interviewStatus.textContent = '저장 실패: ' + err.message; 
+                interviewStatus.className = 'form-status error'; 
+            }
         });
 
         interviewBoard.addEventListener('click', async (e) => {
             const deleteBtn = e.target.closest('.delete-interview-btn');
             if (deleteBtn) { 
-                // client-side check: isAdmin 변수 확인
                 if (!isAdmin) {
                     alert("관리자 권한이 필요합니다.");
                     return;
@@ -561,6 +596,3 @@
     </script>
 </body>
 </html>
-
-
-
