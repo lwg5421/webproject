@@ -152,6 +152,29 @@ def home():
     except Exception as e:
         return f"<h3>index.html 파일을 찾을 수 없습니다.</h3><p>app.py와 같은 폴더에 있는지 확인해주세요.<br>에러: {e}</p>"
 
+# ▼▼▼ [중요] 네이버 검색 노출을 위한 코드 (추가됨) ▼▼▼
+@app.route('/robots.txt')
+def robots():
+    lines = [
+        "User-agent: *",
+        "Allow: /",
+        f"Sitemap: https://notnull.kr/sitemap.xml"  # 도메인 연결 후 실제 주소로 인식됨
+    ]
+    return "\n".join(lines), 200, {'Content-Type': 'text/plain'}
+
+@app.route('/sitemap.xml')
+def sitemap():
+    xml = """<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://notnull.kr/</loc>
+            <lastmod>2025-12-04</lastmod>
+            <priority>1.0</priority>
+        </url>
+    </urlset>"""
+    return xml, 200, {'Content-Type': 'application/xml'}
+# ▲▲▲ [여기까지 추가됨] ▲▲▲
+
 # 404 에러 핸들러 (HTML 대신 JSON 반환)
 @app.errorhandler(404)
 def page_not_found(e):
