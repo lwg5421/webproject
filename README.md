@@ -68,7 +68,11 @@ app.py 실행
 <img width="1301" height="882" alt="image" src="https://github.com/user-attachments/assets/1ed1c42a-1d17-4080-9fc1-537eb432f0a2" />
 
 기업 분석 페이지
-<img width="1169" height="642" alt="image" src="https://github.com/user-attachments/assets/6fa0aa03-8e29-4cc0-9e6e-1f296cdb5c0f" />
+<img width="1169" height="642" alt="image" src="https://github.com/user-attachments/assets/6fa0aa03-8e29-4cc0-9e6e-1f296cdb5c0f" />  
+<img width="1372" height="785" alt="image" src="https://github.com/user-attachments/assets/6e3be965-b9e0-4632-99fe-b9387cf41918" />  
+<img width="1382" height="763" alt="image" src="https://github.com/user-attachments/assets/e62f9819-7faa-4151-8e68-38c043062e41" />
+
+
 
 뉴스 브리핑 페이지
 <img width="1284" height="808" alt="image" src="https://github.com/user-attachments/assets/7e69f0e5-9f90-4bdd-9fa9-f38681f289e3" />
