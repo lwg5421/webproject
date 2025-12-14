@@ -58,3 +58,15 @@ portfolio.html 파일을 브라우저에서 실행합니다.
 CORPCODE.xml: DART에서 제공하는 고유번호 XML 파일이 없으면 기업 검색이 불가능합니다. 압축을 푼 파일이 app.py와 같은 폴더에 있어야 합니다.  
   
 Firebase 설정: portfolio.html 내부의 firebaseConfig 객체는 본인의 프로젝트 설정값으로 변경해야 정상적으로 DB가 작동합니다.
+
+실행화면
+app.py 실행
+<img width="1451" height="434" alt="image" src="https://github.com/user-attachments/assets/5ab188de-9b16-41c7-9e47-92ddc6be8c02" />
+
+
+홈 페이지
+<img width="1301" height="882" alt="image" src="https://github.com/user-attachments/assets/1ed1c42a-1d17-4080-9fc1-537eb432f0a2" />
+
+
+
+
