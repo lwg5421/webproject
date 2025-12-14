@@ -67,6 +67,14 @@ app.py 실행
 홈 페이지
 <img width="1301" height="882" alt="image" src="https://github.com/user-attachments/assets/1ed1c42a-1d17-4080-9fc1-537eb432f0a2" />
 
+기업 분석 페이지
+<img width="1169" height="642" alt="image" src="https://github.com/user-attachments/assets/6fa0aa03-8e29-4cc0-9e6e-1f296cdb5c0f" />
+
+뉴스 브리핑 페이지
+<img width="1284" height="808" alt="image" src="https://github.com/user-attachments/assets/7e69f0e5-9f90-4bdd-9fa9-f38681f289e3" />
+
+인터뷰, 면접 기록 페이지
+<img width="986" height="751" alt="image" src="https://github.com/user-attachments/assets/b4d6e774-f148-4512-b2a7-7cb8ba36899c" />
 
 
 
